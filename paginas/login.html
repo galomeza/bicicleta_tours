@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login</title>
+    <link rel="stylesheet" href="..\css\diseño2.css">
+   
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.7.3/firebase.js"></script>
+
+<script>
+  var firebaseConfig = {
+    apiKey: "AIzaSyB9eWcKBW6R-dGXTgdXbLon4kVPBkbLtXQ",
+    authDomain: "rutas-del-ciclismo.firebaseapp.com",
+    projectId: "rutas-del-ciclismo",
+    storageBucket: "rutas-del-ciclismo.appspot.com",
+    messagingSenderId: "990155489556",
+    appId: "1:990155489556:web:f0ab112150c42906aac201",
+    measurementId: "G-GCGJLBEGRP"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+
+  window.addEventListener('load',function(){
+    let nombre= document.querySelector('#txtnombre');
+    let cedula= document.querySelector('#txtcedula');
+    let edad= document.querySelector('#txtedad');
+    let email= document.querySelector('#txtemail');
+    let telefono= document.querySelector('#txttelefono');
+    let celular= document.querySelector('#txtcelular');
+    let enviar= document.querySelector('#btnenviar');
+    let listado= document.querySelector('#listado');
+    enviar.addEventListener('click',function(){
+                firebase.database().ref('RECICLAJE/'+ cedula.value ).set({
+                nombre: nombre.value,
+                cedula: cedula.value,
+                edad: edad.value,
+                donar: donar.value,
+                beneficiario: beneficiario.value,
+                email: email.value,
+                telefono: telefono.value,
+                celular: celular.value,
+            
+                })
+        })
+    })
+  </script>
+  </head>
+
+  <body background="..\img\background.jpg">
+  <header>
+      <nav>
+          <ul>
+              <li><a href="..//index.html"><img src="..\img\home.png" width="50" heigt="50"/></a></li>
+          </ul>
+
+      </nav>
+      
+  </header>
+    
+    
+    <section id="cajas2">
+      <div class="contenedor2">
+        
+          
+          <div class="contenedor01">
+
+        <h1>LOGIN</h1>
+        <form>
+          <label  for = " username ">Usuario </label>
+          <input type = " text "  placeholder = "Usuario" >
+    
+          <label  para = " password " > Contraseña </label>
+          <input  type = " password "  placeholder = "Contraseña" >
+          <input type ="submit" value =" Log In ">
+          <a  href = "paginas\registro.html" > ¿Todavía no tienes una cuenta? </a>
+        </form>
+      </div>
+        </div>
+        
+    </section>
+    
+</body>
+
+</html>

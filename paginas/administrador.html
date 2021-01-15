@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/diseño1.css">
+    <link rel="stylesheet" href="../diseño2.css">
+    <script src="../app.js"></script>
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.2.2/firebase-app.js"></script>
+    
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.2.2/firebase-analytics.js"></script>
+    
+    <script>
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      var firebaseConfig = {
+        apiKey: "AIzaSyB9eWcKBW6R-dGXTgdXbLon4kVPBkbLtXQ",
+        authDomain: "rutas-del-ciclismo.firebaseapp.com",
+        projectId: "rutas-del-ciclismo",
+        storageBucket: "rutas-del-ciclismo.appspot.com",
+        messagingSenderId: "990155489556",
+        appId: "1:990155489556:web:f0ab112150c42906aac201",
+        measurementId: "G-GCGJLBEGRP"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      firebase.analytics();
+    </script>
+
+    <title>Administrador</title>
+</head>
+<body background="..\img\background.jpg"></body>
+
+                <header>
+                    <div class = "contenedor2">
+                        <div id = "marca">
+                            <img src="..\img\ciclismo_colors.jpg" width="200" heigt="200"/>
+                            <h1><span class="resaltado">BICICLETAS TOURS</span></h1>
+                            <h2><p>"Proporcionar rutas tours".</p></h2>
+                        </div>
+                    
+
+                        <nav>
+                            <ul>
+                                <li><a href="..\index.html">INICIO</a></li>
+                                <li><a href="consulta.html">CONSULTA</a></li>
+                                <li><a><button onclick="cerrar()">Cerrar sesión</button></a></li>
+
+                            </ul>
+                        </nav>
+                    </div>
+                </header>
+                        
+                  
+                </div>
+            </div>
+            <div class="container">
+                <div class="header">
+                    <img src="imag/img1.jpg" alt="">
+                   
+              </div>
+                     
+              <section class="section">
+
+          
+              </section>
+              
+                               <h1>Verificación De Piezas</h1>
+                               <table >
+                               <tr > 
+                                   <td>
+                               <form >
+                                   <label >Piezas Donadas</label><br>
+                                   <select>
+                                       <option ></option>
+                                       <option >Teclado</option>
+                                       <option >Mouse</option> 
+                                       <option >Monitor</option> 
+                                       <option >Cpu</option> 
+                                       <option >Memorias Ram</option> 
+                                       <option >Discos Duros</option> 
+                                       <option >Tarjetas De Videos</option> 
+                                       <option >Mainboard</option> 
+                                   </select><br> 
+               
+                                 <br>
+                                 <label for="txtedad">Caracteristicas</label>
+                                 <input type="text" id="txtedad" placeholder="Escriba sus caracteristicas">
+
+                                 <br>
+                                 <label for="txtedad">Nombre Del Donador</label>
+                                 <input type="text" id="txtedad" placeholder="Escriba ">
+
+                                 <p>
+                                <label for="deliverydate">Fecha De Envio</label>
+                                <input type="date" name="deliverydate" id="deliverydate">
+                                </p>
+
+                                <label >Es Apta?</label><br>
+                                <select>
+                                    <option ></option>
+                                    <option >Si</option>
+                                    <option >No Ira Para Reciclaje </option> 
+                                </select><br>     
+                                 
+                                 <br>
+                                 <input type="submit" class="button" name="enviar" onclick="hizoClick()" value="Validar">
+                                 <script>
+                                  function hizoClick() {
+                                  alert("Pieza Aprobada Donación Exitosa.");}
+
+                                  
+                                               
+                                 </script>
+                               </form>
+                                   </td>
+                               </tr>
+                               </table>
+                               <br>
+              </aside>
+              
+          </div> 
+          <script>
+          
+            document.write("<h3>");       
+            alert("Disponible Esta Sección Solo Para Los Administradores. Si Es Administrador Escriba La Contraseña");
+            var fin = prompt("Ingrese La Contraseña:");
+            
+             {
+                 }                                            
+              </script>
+          <footer><h3><center>Sigamos esforzandonos, llegaremos pronto a la meta!!</center></h3></footer> 
+    </body>
+</html>

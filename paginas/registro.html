@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BICICLETAS TOUR</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="widt=device-width">
+    <meta name="description" content="PROYECTO WEB Optativa">
+    <meta name="Keywords" content="Proyecto Web, HTML, Css">
+    <meta name="author" content="MANTUANO/MEZA">
+    <link rel="stylesheet" href="..\css\diseño1.css">
+    
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.2.2/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.2.2/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyB9eWcKBW6R-dGXTgdXbLon4kVPBkbLtXQ",
+    authDomain: "rutas-del-ciclismo.firebaseapp.com",
+    projectId: "rutas-del-ciclismo",
+    storageBucket: "rutas-del-ciclismo.appspot.com",
+    messagingSenderId: "990155489556",
+    appId: "1:990155489556:web:f0ab112150c42906aac201",
+    measurementId: "G-GCGJLBEGRP"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+
+
+
+</head>
+<body background="img\background.jpg">
+
+      
+   
+            <header>
+                
+                    
+                <div class = "contenedor2">
+                    <div id = "marca">
+                        
+                        <img src="..\img\ciclismo_colors.jpg" width="200" heigt="200"/>
+                        <h1><span class="resaltado">BICICLETAS TOURS</span></h1>
+                        <h2><p>"Proporcionar rutas tours".</p></h2>
+                    </div>
+                    <nav>
+                        <ul>
+                            <li><a href="..//index.html">INICIO</a></li>
+                            <li><a href="somos.html">QUIENES SOMOS</a></li>
+                            <li><a href="consulta.html">CONSULTA</a></li>
+                            <li><a href="registro_transaccion.html">REGISTRO TRANSACCIÓN</a></li>
+                        </ul>
+                    </nav>
+                </div>
+     </header>
+ 
+          
+           
+                <h1>REGISTRO DE USUARIO</h1>
+                <table >
+                <tr> 
+                    <td>
+                <form>
+                  <label for="txtnombre">Nombres y Apellidos</label>
+                  <input type="text" id="txtnombre" placeholder="Ingrese sus nombres y apellido" >
+
+                  <br>
+                  <label for="txtcedula">Cédula</label>
+                  <input type="number" id="txtcedula" placeholder="Ingrese su cédula" pattern= "{1,10}">
+
+                  <br> 
+                  <label for="txtedad">Edad</label>
+                  <input type="number" id="txtedad" placeholder="Ingrese su edad">
+     
+  
+    
+    </select>
+
+                  <br> 
+                  <label for="txttelefono">Teléfono</label>
+                  <input type="number" id="txttelefono" placeholder="Ingrese su teléfono"> 
+                  
+                  <br>
+                  <label for="txtemail">Email</label>
+                  <input type="email" id="txtemail" placeholder="ejemplo@gmail.com">
+              
+                    
+                  <br> 
+                  <label for="passwd">Cree una contraseña por favor</label>
+                  <input type="password" name="passwd" id="passwd"
+                  placeholder="Se sugiere que la contraseña tenga mayusculas y minusculas"
+                  required/>
+                
+                             
+                  
+                  <input type="submit" class="button" name="enviar" onclick="hizoClick()" value="Guardar">
+                  <script>
+                    function hizoClick() {
+                      alert("Se Ha Registrado Correctamente >>>>" +c+  "DOLARES.");
+                    }
+                    </script>
+                </form>
+                    </td>
+                </tr> 
+                </table>
+                <br><br>
+                  
+                   
+        </div>
+            
+            <footer><h3><p><center>Sigamos esforzandonos, llegaremos pronto a la meta!!</center></footer>
+       
+
+        <div id="contenido">
+            </div>
+        
+            <script src="../app.js"></script>
+                  
+</body>
+
+</html>
+
+

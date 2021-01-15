@@ -1,0 +1,156 @@
+body{
+    fonte: 15px Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color:  rgb(201, 248, 190);
+   
+}
+
+.contenedor{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+.boton1{
+    height: 38px;
+    background: chartreuse;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: black;
+}
+
+header{
+    background:rgb(230, 245, 222);
+    color:black;
+    padding-top:20px;
+    min-height:50px;
+    border-bottom: rgb(170, 25, 25) 15px solid;
+  }
+
+header ul {
+    border-bottom: rgb(156, 233, 137) 15px solid; 
+}
+header a{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #marca img{
+    width:250px;
+    float: left;
+}
+
+header #marca h1{
+    margin: 0;
+    font-size: 60px;
+    text-align: center;
+}
+
+header #marca h2{
+    font-size: 30px;
+    text-align: center;
+}
+
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+
+header .resaltado, header .actual a{
+    color: green;
+    font-weight: bolder;
+}
+
+header a:hover{
+    color: black;
+}
+#cajas{
+    margin-top:40px;
+}
+
+#cajas .caja{
+  float:left;
+  text-align: justify;
+  width:40%;
+  padding:30px;
+
+}
+
+#cajas .caja img{
+  width:250px;
+}
+
+input, textarea{
+    width: 100%;
+    height: 35px;
+    border: 2px solid green; 
+    margin-bottom: 5px;
+  }
+  
+  
+  textarea{
+    height: 120px;
+  }
+  
+  input[type='submit']{
+    background-color: #309639;
+    color: rgb(15, 15, 15);  
+  }
+  #cajas2{
+    margin-top:40px;
+}
+
+#cajas2 .caja2{
+  float:left;
+  text-align: justify;
+  width:40%;
+  padding:30px;
+
+}
+  
+footer{
+    text-align: center;
+}
+
+div#acordeonprincipal{
+    margin:auto;
+    width: 1250px;
+    margin-top: 20px;
+    height: 400px;
+    background: rgb(190, 250, 250);
+}
+.card1{
+    width: 416px;
+    height: 400px;
+    background-color: rgb(207, 204, 204);
+    border: 1px solid grey;
+    float: left;
+}
+.card2{
+    width: 417px;
+    height: 400px;
+    background-color: rgb(207, 204, 204);
+    border: 1px solid grey;
+    float: left;
+}
+.card3{
+    width: 416px;
+    height: 400px;
+    background-color: rgb(207, 204, 204);
+    border: 1px solid grey;
+    float: left;
+}

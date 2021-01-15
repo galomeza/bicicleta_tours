@@ -1,0 +1,328 @@
+body{
+    font-family: monospace;
+    font: 15px Arial, Helvetica, sans-serif;
+
+}
+.contenedor1{
+    background-color: rgb(252, 252, 252);
+    margin: auto;
+    overflow: hidden;
+	margin-bottom: 40px;
+	margin-left: 40px;
+	margin-right: 40px;
+
+}
+div #marca h1{
+
+}
+
+header{
+    background:rgb(234, 255, 221);
+    color:black;
+    border-bottom: rgb(23, 11, 187) 15px solid;
+    margin-top: 15px;
+}
+header ul {
+    border-bottom: rgb(104, 183, 230) 30px solid; 
+    margin-top: 0px;
+}
+header li{
+    float: left;
+    display: inline;
+    padding: 0 50px 0 20px;
+}
+header a{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+header #marca img{
+    width:360px;
+    float: left;
+}
+header #marca h1{
+    margin: 0;
+    font-size: 60px;
+    text-align: center;
+}
+header #marca h2{
+    font-size: 30px;
+    text-align: center;
+}
+
+.contenedor2 nav{
+    float: center;
+    margin-top: 50px;
+}
+.contenedorgaleria nav{
+
+        float: right;
+        margin-top: 150px;
+
+}
+header .resaltado, header .a{
+    color: rgb(1, 2, 2);
+    font-weight: bolder;
+}
+
+
+nav a:hover{
+    position: relative;
+  transition-property: background-color, color;
+  transition-duration: 1s;
+  transition-timing-function: ease-out;
+  -webkit-transition-property: background-color, color;
+  -webkit-transition-duration: 1s;
+  -o-transition-property: background-color, color;
+  -o-transition-duration: 1s;
+  background-color:rgb(8, 150, 160);
+  color:black;
+  -moz-box-shadow: 4px 4px 3px black;
+
+  }
+.contenedor2{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+.contenedorgaleria{
+    width: 100%;
+    overflow: hidden;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+
+  #main .caja img{
+    width:600px;
+  }
+  #cajas2{
+    margin-top:90px;
+}
+
+#cajas2 .caja2{
+  float:left;
+  text-align: left;
+  width:40%;
+  padding:30px;
+  
+
+}
+
+textarea{
+    height: 120px;
+  }
+  
+  input[type='submit']{
+    background-color: #72bd70;
+    color: rgb(15, 15, 15);  
+  }
+  input, textarea{
+    width: 100%;
+    height: 35px;
+    border: 2px solid green; 
+    margin-bottom: 5px;
+  }
+  .caja4{
+    width: 590px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 auto; 
+    text-align: left;
+    background: rgb(130, 240, 130);
+      border: 6px solid rgb(5, 146, 35);
+  
+    }
+    .caja3{
+        width: 590px;
+        display: inline-block;
+        vertical-align: top;
+        margin: 0 auto; 
+        text-align: justify;
+        background: rgb(130, 240, 130);
+          border: 6px solid rgb(5, 146, 35);
+      
+        }
+    #cajas3 .caja3 img{
+      width:300px;
+    }
+
+    .somos1{
+        margin:auto;
+        width: 1250px;
+        margin-top: 20px;
+        height: 400px;
+        background: rgb(250, 190, 190);
+    }
+    .somos01{
+        width: 625px;
+        height: 400px;
+        background-color: white;
+        float: left;
+    }
+    .somos1 img{
+        margin-top: 30px;
+        width: 100%;
+    }
+    .somos02{
+        width: 625px;
+        height: 400px;
+        background-color: greenyellow;
+        float: left;
+    }
+    .linea1{
+        width: 600px;
+        margin-top: 20px;
+        margin-left: 350px;
+        margin-right: 60px;
+        border: 2px solid rgb(72, 211, 79);
+
+    }
+    .linea2{
+        width: 600px;
+        margin-top: -60px;
+        margin-left: 350px;
+        margin-right: -60px;
+        border: 2px solid green;
+
+    }
+
+    .medio{
+        width: 1250px;
+        height: 50pxx;
+        background-color: rgb(74, 190, 63);
+    }
+    .medio p{
+        margin-top: 0px;
+        font-size: 60px;
+        text-align: center;
+        font-weight: bold;
+    }
+    .somos2{
+        margin:auto;
+        width: 1250px;
+        margin-top: 20px;
+        height: 400px;
+        background: rgb(224, 223, 223);
+    }
+    .somos21{
+        width: 414px;
+        height: 400px;
+        background-color: rgb(207, 204, 204);
+        border: 1px solid grey;
+        float: left;
+    }
+    
+   
+    .somos23{
+        width: 414px;
+        height: 400px;
+        background-color: rgb(207, 204, 204);
+        border: 1px solid grey;
+        float: left;
+    }
+    .somos21 p{
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        text-align: justify;
+    }
+    .somos22 p{
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        text-align: justify;
+    }
+    .somos23 p{
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        text-align: justify;
+    }
+    .somos24 p{
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        text-align: justify;
+    }
+    .somos21 h2{
+        margin-top: 40px;
+        text-align: center;
+}
+
+
+.somos23 h2{
+    margin-top: 60px;
+    text-align: center;
+}
+.somos24 h2{
+    margin-top: 60px;
+    text-align: center;
+}
+   
+.somos24{
+        width: 414px;
+        height: 400px;
+        background-color: rgb(207, 204, 204);
+        border: 1px solid grey;
+        float: left;
+    }
+        .somos02 h1{
+            margin-top: 60px;
+            text-align: center;
+        
+    }
+    .somos02 p{
+        margin-top: 40px;
+        margin-left: 40px;
+        margin-right: 40px;
+        text-align: justify;
+        font-size:16px;
+    
+}
+
+    .somos2 img{
+        width: 150px;
+        margin-top: 20px;
+        margin-left: 80px;
+        margin-right: 30px;
+        
+    }
+    .datos{
+        margin: auto;
+        overflow: hidden;
+        line-height: 4px;
+        font-size:12px;
+        text-align: center;
+        font-family:Arial, Helvetica, Sans-serif;
+        background-color: rgb(90, 211, 60);
+        margin-top: -30px;
+        width: 1250px;
+
+    }
+
+    div#acordeonprincipal{
+        margin:auto;
+        width: 1250px;
+        margin-top: 20px;
+        height: 400px;
+        background: rgb(255, 255, 255);
+    }
+    .card1{ 
+        width: 616px;
+        height: 400px;
+        background-color: rgb(219, 255, 222);
+        border: 1px solid grey;
+        float: left;
+    }
+  
+    .card3{
+        width: 616px;
+        height: 400px;
+        background-color: rgb(219, 255, 222);
+        border: 1px solid grey;
+        float: left;
+    }
