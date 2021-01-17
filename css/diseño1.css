@@ -18,7 +18,7 @@ div #marca h1{
 }
 
 header{
-    background:rgb(234, 255, 221);
+    background-image: url(../img/backlog2.jpg);
     color:black;
     border-bottom: rgb(23, 11, 187) 15px solid;
     margin-top: 15px;
@@ -118,13 +118,13 @@ textarea{
   }
   
   input[type='submit']{
-    background-color: #72bd70;
-    color: rgb(15, 15, 15);  
+    background-color: #0909ee;
+    color: rgb(255, 255, 255);  
   }
   input, textarea{
     width: 100%;
     height: 35px;
-    border: 2px solid green; 
+    border: 2px solid rgb(15, 219, 226); 
     margin-bottom: 5px;
   }
   .caja4{
@@ -310,12 +310,12 @@ textarea{
         width: 1250px;
         margin-top: 20px;
         height: 400px;
-        background: rgb(255, 255, 255);
+        background: #007bff47;
     }
     .card1{ 
         width: 616px;
         height: 400px;
-        background-color: rgb(219, 255, 222);
+        background-color: rgb(171, 203, 240);
         border: 1px solid grey;
         float: left;
     }
@@ -323,7 +323,7 @@ textarea{
     .card3{
         width: 616px;
         height: 400px;
-        background-color: rgb(219, 255, 222);
+        background-color: rgb(171, 203, 240);
         border: 1px solid grey;
         float: left;
     }
