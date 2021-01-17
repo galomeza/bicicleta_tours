@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Login</title>
-    <link rel="stylesheet" href="..\css\diseño2.css">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/fonts.css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Montez|Pathway+Gothic+One" rel="stylesheet">
    
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -53,11 +55,11 @@
   </script>
   </head>
 
-  <body background="..\img\background.jpg">
+  <body>
   <header>
       <nav>
           <ul>
-              <li><a href="..//index.html"><img src="..\img\home.png" width="50" heigt="50"/></a></li>
+              <li><a href="..//index.html"><img src="..\img\bluehome.png" width="50" heigt="50"/></a></li>
           </ul>
 
       </nav>
@@ -65,24 +67,26 @@
   </header>
     
     
-    <section id="cajas2">
-      <div class="contenedor2">
-        
-          
-          <div class="contenedor01">
+  <div class="contenedor">
 
-        <h1>LOGIN</h1>
-        <form>
-          <label  for = " username ">Usuario </label>
-          <input type = " text "  placeholder = "Usuario" >
-    
-          <label  para = " password " > Contraseña </label>
-          <input  type = " password "  placeholder = "Contraseña" >
-          <input type ="submit" value =" Log In ">
-          <a  href = "paginas\registro.html" > ¿Todavía no tienes una cuenta? </a>
+    <header>
+      <h1 class="title">Odisea</h1>
+      <a href="registro.html">Registrate</a>
+    </header>
+    <div class="login">
+      <article class="fondo">
+        <img src="../img/user.jpg" alt="User">
+        <h3>Inicio de Sesión</h3>
+        <form class="" action="index.html" method="post">
+          <span class="icon-user"></span><input class="inp" type="text" name="user" value=""><br>
+          <span class="icon-key"></span><input class="inp" type="password" name="pass" value=""><br>
+          <a href="" class="he">He olvidado mi contraseña</a>
+          <input class="boton" type="submit" name="inicio" value="Iniciar Sesión">
         </form>
-      </div>
-        </div>
+      </article>
+    </div>
+
+  </div>
         
     </section>
     

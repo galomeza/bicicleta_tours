@@ -1,6 +1,7 @@
 body{
     font-family: monospace;
     font: 15px Arial, Helvetica, sans-serif;
+    background-color: #b9c9fe;
 
 }
 .contenedor1{
@@ -170,7 +171,7 @@ textarea{
     .somos02{
         width: 625px;
         height: 400px;
-        background-color: greenyellow;
+        background-color: #b9c9fe;
         float: left;
     }
     .linea1{
