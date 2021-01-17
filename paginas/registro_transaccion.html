@@ -23,7 +23,7 @@
 
     </script>
 
-    <title>Donar</title>
+    <title>seleccion ruta</title>
 </head>
 <body background="..\img\backlog2.jpg">
 
@@ -34,7 +34,7 @@
                         <div id = "marca">
                             <img src="..\img\ciclismo_colors.jpg" width="200" heigt="200"/>
                             <h1><span class="resaltado">RUTAS TOURS</span></h1>
-                            <h2><p>"Proporcionar rutas tours".</p></h2>
+                            <h2><p>"Una ruta a la vez...!!".</p></h2>
                         </div>
                         <nav>
                             <ul>
@@ -50,49 +50,41 @@
             
      
 
-                <h1>Transacción</h1>
+                <center><h1>Selección de rutas</h1>
                 <table>
                 <tr> 
                     <td>
                 <form>
-                    <label >Que Va Ha Donar</label><br>
+                    <label>Rutas disponibles</label><br>
                     <select>
                         <option ></option>
-                        <option >Teclado</option>
-                        <option >Mouse</option> 
-                        <option >Monitor</option> 
-                        <option >Cpu</option> 
-                        <option >Memorias Ram</option> 
-                        <option >Discos Duros</option> 
-                        <option >Tarjetas De Videos</option> 
-                        <option >Mainboard</option> 
-                    </select><br> 
+                        <option >La proaño-San Mateo</option>
+                        <option >La proaño-Santa Marianita</option>
+                        <option >La proaño-Jaramijo</option>
+                        <option >La proaño-San Lorenzo</option>
+                        <option >La proaño-La tiñosa</option>
+                        <option >La proaño-Santa Marianita</option>
+                        
+                    </select><br><br>
 
-                  <br>
-                  <label for="txtedad">Escriba Aqui Sus Caracteristicas</label>
-                  <input type="text" id="txtedad" placeholder="Escriba sus caracteristicas">
                   
-                  <br>
-                  <label >Que Tiempo Tiene</label><br>
+                  <label>Fecha de ruta</label><br>
                     <select>
-                        <option ></option>
-                        <option >6 Meses</option>
-                        <option >1 Año</option> 
-                        <option >2 Año</option> 
-                        <option >3 Año</option> 
-                        <option >4 Año</option> 
-                        <option >5 En Adelante</option> 
-                    </select><br> 
+                        <input type="date">
+                  <br><br>
 
-                  <br>
-                  <label for="txttelefono">Porque lo va ha donar</label>
+                 
+                  <label>Hora de ruta</label><br>
+                  <input type="time">
+                  
+                  <label for="txttelefono">Comentar</label>
                   <input type="text" id="txttelefono" placeholder="Dejanos tu comentario">     
                   
                   <br>
-                  <input type="submit" class="button" name="enviar" onclick="hizoClick()" value="Enviar">
+                  <input type="submit" class="button" name="enviar" onclick="hizoClick()" value="Enviar"></center>
                   <script>
                     function hizoClick() {
-                      alert("Enviaremos A Su Correo Un Código Para Que Pueda Donar En Nuestras Instalaciones.");
+                      
                     }
                     </script>
                 </form>

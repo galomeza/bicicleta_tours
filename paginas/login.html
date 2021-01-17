@@ -39,12 +39,10 @@
     let enviar= document.querySelector('#btnenviar');
     let listado= document.querySelector('#listado');
     enviar.addEventListener('click',function(){
-                firebase.database().ref('RECICLAJE/'+ cedula.value ).set({
+                firebase.database().ref('ciclistas/'+ cedula.value ).set({
                 nombre: nombre.value,
                 cedula: cedula.value,
                 edad: edad.value,
-                donar: donar.value,
-                beneficiario: beneficiario.value,
                 email: email.value,
                 telefono: telefono.value,
                 celular: celular.value,
